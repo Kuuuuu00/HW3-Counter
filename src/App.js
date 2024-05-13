@@ -1,8 +1,15 @@
+import { useState } from "react";
+import Counter from "./Counter";
+
+
 function App() {
+
+
   return (
-    <div>
-      hello world
-    </div>
+    <>
+      <Counter/>
+    </>
   );
 }
+
 export default App;
